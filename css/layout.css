@@ -5,7 +5,7 @@ body{
 
 
 li{
-    display: inline-block;
+    display: inline;
 }
 
 .float-left{
@@ -36,61 +36,81 @@ li{
     width: 283px;
     margin-right: 7px;
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 
-.search-button-wrapper{
-    display: inline-block;
+.search-bar-content{
     position: relative;
-}
-
-.search-button{
-    width:37px;
-    height: 20px;
-    border: none;
-
-    position: relative;
-    left: -5px;
-    top: -7px
-}
-
-.button-right-round{
-    position: relative;
-    left: -10px;
 }
 
 .search-bar{
     position: relative;
-    display: inline-block;
-    width: 244px;
+    width: 255px;
     height: 20px;
-    left: -4px;
-    right: 0px;
+    left: 6px;
     bottom: 0px;
 }
 
-.search-input{
-    width: 225px;
-    position: relative;
-    top: -5px;
+.search-icon{
+    position: absolute;
+    top: 0px;
+    right:6px;
 }
 
 .cross-icon{
-    height: 100%;
-}
-
-.search-icon{
-    height: 100%;
     position: relative;
-    left: -7px;
+    right: -10px;
 }
-
-.search-right-round{
+.search-input{
+    width: 225px;
     position: relative;
-    left: -11px;
+    bottom: 6px;
 }
 
 
+
+.search-round-left{
+    background-image: url(../images/search-round-left.png);
+    height: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.search-round-right{
+    background-image: url(../images/search-round-right.png);
+    height: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+
+
+.search-button-wrapper{
+    width: 49px;
+    display: inline;
+    position: relative;
+}
+
+.search-button{
+    width:39px;
+    height: 20px;
+    border: none;
+    position: relative;
+    left: 5px;
+    top: 0px
+}
+
+.search-button-left{
+    background-image: url(../images/search-button-left.png);
+    height: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.search-button-right{
+    background-image: url(../images/search-button-right.png);
+    height: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
 
 
 .header-right-up{
@@ -106,7 +126,8 @@ li{
 
 .nav-left li{
     margin-right: 32px;
-    margin-top: 14px;
+    position: relative;
+    top: 14px
 }
 
 .nav-left li a{

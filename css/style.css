@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .header-wrapper{
@@ -8,7 +8,7 @@ a{
 }
 
 .header-right{
-    font-family: 'Istok Web', sans-serif;
+    font-family: sans-serif;
 }
 
 .search-bar{
@@ -20,7 +20,7 @@ a{
     background-color: #caeff7;
     color: #5c5c5c;
     font-size: 10px;
-    font-family: 'Istok Web', sans-serif;
+    font-family: sans-serif;
     outline: none;
 }
 
@@ -29,7 +29,7 @@ a{
     background-color: #284e59;
     color: #FFF;
     font-size: 9px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -80,7 +80,7 @@ a{
 }
 
 .section-mid-wrapper{
-    font-family: Muli, sans-serif;
+    font-family: sans-serif;
 }
 
 .section-mid-heading{
@@ -213,7 +213,7 @@ a{
 .footer{
     font-size: 12px;
     font-family: Arial, sans-serif;
-    color: #d5d5d5d5;
+    color: #d5d5d5;
 }
 
 .footer a{
@@ -223,3 +223,4 @@ a{
 .footer li{
     padding-right: 5px;
 }
+
